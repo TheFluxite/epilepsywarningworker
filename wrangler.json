@@ -1,0 +1,5 @@
+{
+  "name": "epilepsywarningapi",
+  "main": "worker.js",
+  "compatibility_date": "2025-08-10"
+}
