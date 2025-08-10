@@ -20,7 +20,7 @@ export default {
     }
 
     // Fetch the JSON from GitHub
-    const jsonUrl = "https://raw.githubusercontent.com/TheFluxite/epilepsywarningsdatabase/blob/main/id.json";
+    const jsonUrl = "https://raw.githubusercontent.com/TheFluxite/epilepsywarningsdatabase/main/id.json";
     const response = await fetch(jsonUrl);
     if (!response.ok) {
       return new Response(JSON.stringify({ error: "Could not fetch JSON" }), {
@@ -38,3 +38,4 @@ export default {
     });
   }
 };
+
